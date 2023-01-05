@@ -7,19 +7,19 @@ type Customer struct {
 	Age           int
 }
 
-func (customer Customer) sayHi(name string){
+func (customer Customer) sayHi(name string) {
 	fmt.Println("Hello", name, "My Name is", customer.Name)
 }
 
-func (a Customer) sayHuuu(){
+func (a Customer) sayHuuu() {
 	fmt.Println("Huuuuuu from", a.Name)
 }
 
 func main() {
 	var bad Customer
-	bad.Name = "bad"
-	bad.Address = "Indonesia"
-	bad.Age = 30
+	// bad.Name = "bad"
+	// bad.Address = "Indonesia"
+	// bad.Age = 30
 
 	bad.sayHi("Joko")
 	// bad.sayHuuu()
