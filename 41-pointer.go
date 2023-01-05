@@ -6,9 +6,7 @@ type Address struct {
 	City, Province, Country string
 }
 
-func ChangeCountryToIndonesia(address *Address) {
-	address.Country = "Indonesia"
-}
+f
 
 func main() {
 	var address1 Address = Address{"Subang", "Jawa Barat", "Indonesia"}
@@ -28,12 +26,4 @@ func main() {
 	address4.City = "Jakarta"
 	fmt.Println(address4)
 
-	var alamat = Address{
-		City:     "Subang",
-		Province: "Jawa Barat",
-		Country:  "",
-	}
-	var alamatPointer *Address = &alamat
-	ChangeCountryToIndonesia(alamatPointer)
-	fmt.Println(alamat)
 }
