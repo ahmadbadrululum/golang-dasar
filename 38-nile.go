@@ -21,6 +21,3 @@ func main() {
 		fmt.Println(person)
 	}
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
